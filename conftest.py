@@ -1,5 +1,8 @@
 import pytest
 
+@pytest.fixture
+def first_fixture():
+    print("print from first_fixture")
 
 @pytest.fixture
 def fixture_return_numbers():
